@@ -1710,7 +1710,7 @@ exec('wget "' + d.url + '" -O anime/nime.jpg', (error, stdout, stderr) => {
     client.sendMessage(msg.from, "Gabut bangettt sihhh.. 🤭");
   }
   else if (msg.body == "save euy" || msg.body == "save donk" || msg.body == "Save euy" || msg.body == "Save donk") {
-    client.sendMessage(msg.from, "Gas keun, ini chat ke sini aja -> wa.me/6289636035164, itu akun real ku ^_^")
+    client.sendMessage(msg.from, "Gas keun, ini chat ke sini aja -> wa.me/6281342077268, itu akun real ku ^_^")
   }
   else if (msg.body == "kamu bot?") {
     client.sendMessage(msg.from, "y")
@@ -1723,24 +1723,16 @@ exec('wget "' + d.url + '" -O anime/nime.jpg', (error, stdout, stderr) => {
     client.sendMesssage(msg.from, "Waalaikumussalam Warahmatullahi Wabarakatuh");
   }else if (msg.body == "!menu") {
  client.sendMessage(msg.from,  `
-*SELAMAT DATANG ^_^*
+Nama : *AZ Bot Officials*
+Dibuat Oleh : *Alif Putra Darmawan*
+Versi : *1.0*
 
-
-_Hai, sebelum memakai bot ini patuhi rules dulu ya ._
-Ketikan *!rules* untuk melihat rules memakai bot ini
-
-			️*List Menu*️️
+Hai kak, Berikut daftar perintah untuk AZ Bot :)
 			
 ➡️ !admin = Menu Khusus Admin Grup🏅
 ➡️ !menu1 = Fun Menu 🌞
 ➡️ !menu2 = Downloader Menu🎞
 ➡️ !menu3 = Horoscope Menu 🎇
-➡️ NSFW Menu 🚫
-
-*CRead by Dandy Production*
-
-
-
 `);
 }
 else if (msg.body == "!admin") {
@@ -1756,46 +1748,46 @@ else if (msg.body == "!admin") {
  
  else if (msg.body == "!menu1") {
  client.sendMessage(msg.from,  `
-*!randomanime* = untuk melihat gambar anime secara random
+Nama : *AZ Bot Officials*
+Dibuat Oleh : *Alif Putra Darmawan*
+Versi : *1.0*
 
-*!quotes* : Melihat quotes dari tokoh terkenal
-
-*Play nama lagu*
+Berikut Daftar Perintah untuk *Menu 1*:
+• *!randomanime* = untuk melihat gambar anime secara random
+• *!quotes* : Melihat quotes dari tokoh terkenal
+• *Play nama lagu*
 contoh: *Play whatever it takes*
-
-*!wait* : Menampilkan informasi anime dengan mengirim gambar dengan caption !wait
-
-*!brainly* : Menampilkan jawaban yang terdapat pada brainly.
+• *!wait* : Menampilkan informasi anime dengan mengirim gambar dengan caption !wait
+• *!brainly* : Menampilkan jawaban yang terdapat pada brainly.
 contoh : !brainly siapa penemu motor
-
-*!translate* : Menerjemahkan kedalam bahasa yang di inginkan
+• *!translate* : Menerjemahkan kedalam bahasa yang di inginkan
  contoh : _!translate [en] kamu mau jadipacar aku ga sayang ?_
  _untuk code bahasa bisa di cek dengan perintah *#codebahasa*
-
-*!tts* : Mengubah teks kedalam suara / teks to speech
+• *!tts* : Mengubah teks kedalam suara / teks to speech
  contoh : _!tts kamu mau jadi pacar aku ga sayang ?_
- 
-*!lirik* : Mencari lirik lagu
+
+-
+
+• *!lirik* : Mencari lirik lagu
 contoh (Jika mengetahui nama artis) : !lirik alan walker - faded
 contoh (Jika tidak mengetahui nama artis) : !lirik - faded
 `);
  }
 else if (msg.body == "!menu2") {
  client.sendMessage(msg.from,  `
- 
- *!yt* : Mendownload video dari youtube
-contoh : !yt https://youtu.be/K9jR4hSCbG4
+Nama : *AZ Bot Officials*
+Dibuat Oleh : *Alif Putra Darmawan*
+Versi : *1.0*
 
-*!ytmp3* : Mendownload mp3 dari youtube
+•  *!yt* : Mendownload video dari youtube
+contoh : !yt https://youtu.be/K9jR4hSCbG4
+• *!ytmp3* : Mendownload mp3 dari youtube
 contoh : !ytmp3 https://youtu.be/xUVz4nRmxn4
-
-*!fb* : Mendownload video dari facebook
+• *!fb* : Mendownload video dari facebook
 contoh : !fb url
-
-*!igp* : Mendownload media fotodari instagram
+• *!igp* : Mendownload media fotodari instagram
 contoh : !igp url
-
-*!igv* : Mendownload video dari instagram
+• *!igv* : Mendownload video dari instagram
 contoh : !igv url
 
 `);
@@ -1803,17 +1795,18 @@ contoh : !igv url
 
 else if (msg.body == "!menu3") {
 	client.sendMessage (msg.from, `
-*!nama* : Melihat arti dari nama kamu
+Nama : *AZ Bot Officials*
+Dibuat Oleh : *Alif Putra Darmawan*
+Versi : *1.0*
+
+• *!nama* : Melihat arti dari nama kamu
  contoh : !nama Dandi
-
-*!sifat* : cari sifat berdasarkan nama dan tanggal lahir
-contoh : !sifat [Dandi] 20-01-2005
-
-*!sial* : Check hari apes mu berdasarkan tanggal lahir.
+• *!sifat* : cari sifat berdasarkan nama dan tanggal lahir
+contoh : !sifat [AZ] 20-01-2005
+• *!sial* : Check hari apes mu berdasarkan tanggal lahir.
 contoh : !sial 20 01 2005
-
-*!pasangan* : Check kecocokan jodoh
- contoh : !pasangan Dandi & Cicak
+• *!pasangan* : Check kecocokan jodoh
+ contoh : !pasangan AZ & Raya
 `);
 }	
 
@@ -1836,15 +1829,20 @@ msg.reply(" Hallo umur kamu belum cukup untuk menampilkan menu ini");
 }
   else if (msg.body == "#cekresi") {
 	  msg.reply(`
-	  *!jnt kode resi*
-	  *!jne kode resi*
-	  *!sicepat kode resi*
-	  *!sap kode resi*
-	  *!pcp kode resi*
-	  *!lex kode resi*
+Nama : *AZ Bot Officials*
+Dibuat Oleh : *Alif Putra Darmawan*
+Versi : *1.0*
+
+Berikut Daftar Perintah Untuk Cek Resi:
+• *!jnt* Kode Resi : Untuk Tracking Resi JNT
+• *!jne* Kode Resi : Untuk Tracking Resi JNE
+• *!sicepat* Kode Resi : Untuk Tracking Resi SICEPAT
+• *!sap* Kode Resi : Untuk Tracking Resi SAP
+• *!pcp* Kode Resi : Untuk Tracking Resi PCP
+• *!lex* Kode Resi : Untuk Tracking Resi LEX
 	  
-	  _ Tracking Kurir By Dandi Bot _
-	  `);
+*2020 © AZ Bot WhatsApp*
+ 	  `);
   }
   else if (msg.body == "#codebahasa") {
     msg.reply(`
@@ -2018,12 +2016,7 @@ YD.on("finished", function(err, data) {
 
 const musik = MessageMedia.fromFilePath(data.file);
 msg.reply(` 
- 
-
- 🎶 *Bot Dandy Production* 🎶
-
-🔉  *${data.videoTitle}* 
-`);
+_Download Lagu Suksessss!_`);
 chat.sendMessage(musik);
 });
 YD.on("progress", function(data) {
